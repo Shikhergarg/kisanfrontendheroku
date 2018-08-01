@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-sanitize.js"></script>
+    
+    <link data-require="bootstrap-css@*" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <script data-require="angular.js@1.6.9" data-semver="1.5.0" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.4.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <script src="ang.js"></script>
+</head>
+<body id="body" style="overflow:hidden;" >
+
+    <nav class="{{active}}" >
+
+        <!-- When a link in the menu is clicked, we set the active variable -->
+        <a href="#!" class="about" >FirstPage</a>
+        <a href="#!SecondPage" class="contact" >SecondPage</a>
+    </nav>
+    <div ng-view></div>
+</body>
+</html>

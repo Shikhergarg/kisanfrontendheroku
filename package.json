@@ -1,0 +1,19 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ang.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "dependencies": {
+    "angular-route": "^1.7.2",
+    "angular-ui-bootstrap": "^2.5.6",
+    "express": "^4.16.3"
+  }
+}
